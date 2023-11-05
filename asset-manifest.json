@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/piston-app/static/css/main.8e59708a.css",
-    "main.js": "/piston-app/static/js/main.2eb4b791.js",
+    "main.css": "/piston-app/static/css/main.048b643e.css",
+    "main.js": "/piston-app/static/js/main.19b57754.js",
     "static/js/787.54f26701.chunk.js": "/piston-app/static/js/787.54f26701.chunk.js",
     "static/media/img7.png": "/piston-app/static/media/img7.77fc8173873e5eba633d.png",
     "static/media/img6.png": "/piston-app/static/media/img6.f1e5a49a1bc97f670216.png",
@@ -11,12 +11,12 @@
     "static/media/img1.png": "/piston-app/static/media/img1.18e059d319c55125a1ee.png",
     "static/media/img3.png": "/piston-app/static/media/img3.72ff611d30b6bc896e40.png",
     "index.html": "/piston-app/index.html",
-    "main.8e59708a.css.map": "/piston-app/static/css/main.8e59708a.css.map",
-    "main.2eb4b791.js.map": "/piston-app/static/js/main.2eb4b791.js.map",
+    "main.048b643e.css.map": "/piston-app/static/css/main.048b643e.css.map",
+    "main.19b57754.js.map": "/piston-app/static/js/main.19b57754.js.map",
     "787.54f26701.chunk.js.map": "/piston-app/static/js/787.54f26701.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e59708a.css",
-    "static/js/main.2eb4b791.js"
+    "static/css/main.048b643e.css",
+    "static/js/main.19b57754.js"
   ]
 }
