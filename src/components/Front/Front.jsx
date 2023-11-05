@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Container, Col } from "react-bootstrap";
+import { Row, Container, Col, Button } from "react-bootstrap";
 import img1 from '../../images/img1.png';
 import img2 from '../../images/img2.png'
 import img3 from '../../images/img3.png'
@@ -17,15 +17,31 @@ function Front() {
           <Col xs={12} md={6} className="column-style">
             <div className="container column-style">
                 <img src={img1} alt="" />
-                <div className="bottom-centered1">MADE FOR YOU</div>
-                <div className='bottom-centered2'>PISTONS</div>
+                <div class="estrellas inverso">
+                  <span>U</span>
+                  <span>O</span>
+                  <span>Y</span>
+                  <span> </span>
+                  <span>R</span>
+                  <span>O</span>
+                  <span>F</span>
+                  <span> </span>
+                  <span>E</span>
+                  <span>D</span>
+                  <span>A</span>
+                  <span>M</span>
+                </div>
+                <div className='text1'>PISTONS</div>
             </div>
           </Col>
           <Col xs={12} md={6} className='column-style'>
             <div className="container column-style">
                 <img src={img2} alt="" />
-                <div className="bottom-centered3">YOU WERE MADE TO</div>
-                <div className='bottom-centered2'>MAKE AN IMPACT</div>
+                <div className="text2">YOU WERE MADE TO</div>
+                <div className='text3'>MAKE AN IMPACT</div>
+                <div className="text4">
+                  <Button variant="light" style={{borderRadius: 100}}><span style={{fontSize: 15, fontWeight: 700, paddingLeft: 20, paddingRight: 20}}>SHOP PENS</span></Button>
+                </div>
             </div>
           </Col>
         </Row>
@@ -33,22 +49,32 @@ function Front() {
           <Col xs={12} md={6} className='column-style'>
             <div className="container column-style">
                 <img src={img3} alt="" />
-                <div className="bottom-centered3">MADE FOR THE BEST</div>
-                <div className='bottom-centered2'>CHANGE MAKERS</div>
+                <div className="text5">MADE FOR THE BEST</div>
+                <div className='text6'>CHANGE MAKERS</div>
+                <div className="text7">
+                  <Button variant='dark' style={{borderRadius: 100}}><span style={{fontSize: 15, fontWeight: 700, paddingLeft: 20, paddingRight: 20}}>SHOP BRANDS</span></Button>
+                </div>
             </div>
           </Col>
           <Col xs={12} md={6} className='column-style'>
-            <img src={img4} alt="" />
+            <div className="container column-style">
+              <img src={img4} alt="" />
+            </div>
           </Col>
         </Row>
         <Row>
           <Col xs={12} md={6} className='column-style'>
-            <img src={img5} alt="" />
+            <div className="container column-style">
+              <img src={img5} alt="" />
+            </div>
           </Col>
           <Col xs={12} md={6} className='column-style'>
             <div className="container column-style">    
                 <img src={img6} alt="" />
-                <p>SAVOUR THE PRESENT</p>
+                <div className="text2">SAVOUR THE PRESENT</div>
+                <div className="text8">
+                  <Button variant="light" style={{borderRadius: 100}}><span style={{fontSize: 15, fontWeight: 700, paddingLeft: 20, paddingRight: 20}}>SHOP PENS</span></Button>
+                </div>
             </div>
           </Col>
         </Row>

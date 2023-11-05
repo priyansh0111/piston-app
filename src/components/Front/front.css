@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     max-width: 100% !important;
+    color: white;
 }
 img {
     padding: 0;
@@ -18,24 +19,124 @@ img {
 .container{
     position: relative;
     text-align: center;
-    color: white;
 }
 
-.bottom-centered1{
+.text1{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 85%;
+    left: 48%;
+    font-size: 40px;
     transform: translate(-50%, -50%);
 }
-.bottom-centered2{
+.text2{
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 75%;
+    left: 48%;
+    font-size: 24px;
     transform: translate(-50%, -50%);
 }
-.bottom-centered3{
+.text3{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 80%;
+    left: 48%;
+    font-size: 24px;
     transform: translate(-50%, -50%);
+}
+.text4{
+    position: absolute;
+    top: 89%;
+    left: 48%;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+.text5{
+    position: absolute;
+    top: 69%;
+    left: 48%;
+    font-size: 24px;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+.text6{
+    position: absolute;
+    top: 74%;
+    left: 48%;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+.text7{
+    position: absolute;
+    top: 82%;
+    left: 48%;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+.text8{
+    position: absolute;
+    top: 85%;
+    left: 48%;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+.estrellas {
+margin: 0 auto;
+font-size: 30px;
+position: absolute;
+top: 95%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.estrellas span {
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 40px;
+height: 200px;
+margin-left: -35px;
+line-height: 400px; /* height*2 - font-size */
+text-align: center;
+transform-origin: top center;
+}
+.estrellas span:nth-of-type(1)  {
+transform: rotate(55deg);
+}
+.estrellas span:nth-of-type(2)  {
+transform: rotate(45deg);
+}
+.estrellas span:nth-of-type(3)  {
+transform: rotate(35deg);
+}
+.estrellas span:nth-of-type(4)  {
+transform: rotate(25deg);
+}
+.estrellas span:nth-of-type(5)  {
+transform: rotate(15deg);
+}
+.estrellas span:nth-of-type(6)  {
+transform: rotate(5deg);
+}
+.estrellas span:nth-of-type(7)  {
+transform: rotate(-5deg);
+}
+.estrellas span:nth-of-type(8)  {
+transform: rotate(-15deg);
+}
+.estrellas span:nth-of-type(9)  {
+transform: rotate(-25deg);
+}
+.estrellas span:nth-of-type(10)  {
+transform: rotate(-35deg);
+}
+.estrellas span:nth-of-type(11)  {
+transform: rotate(-45deg);
+}
+.estrellas span:nth-of-type(12)  {
+transform: rotate(-55deg);
+}
+/* Reverse mode */
+.inverso span {
+line-height: 60px;
+transform-origin: bottom center; /* Only for seeing trick */
 }
