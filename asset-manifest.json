@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/piston-app/static/css/main.048b643e.css",
-    "main.js": "/piston-app/static/js/main.19b57754.js",
+    "main.css": "/piston-app/static/css/main.3aa79ac2.css",
+    "main.js": "/piston-app/static/js/main.fad35b7a.js",
     "static/js/787.54f26701.chunk.js": "/piston-app/static/js/787.54f26701.chunk.js",
     "static/media/img7.png": "/piston-app/static/media/img7.77fc8173873e5eba633d.png",
     "static/media/img6.png": "/piston-app/static/media/img6.f1e5a49a1bc97f670216.png",
@@ -9,14 +9,18 @@
     "static/media/img2.png": "/piston-app/static/media/img2.51ff4ed82e2e3e44c3f1.png",
     "static/media/img4.png": "/piston-app/static/media/img4.3f79145312a334fa20e9.png",
     "static/media/img1.png": "/piston-app/static/media/img1.18e059d319c55125a1ee.png",
+    "static/media/about4.png": "/piston-app/static/media/about4.60614546dc574d43686f.png",
+    "static/media/about2.png": "/piston-app/static/media/about2.ed6a470089f6a460551e.png",
     "static/media/img3.png": "/piston-app/static/media/img3.72ff611d30b6bc896e40.png",
+    "static/media/about3.png": "/piston-app/static/media/about3.5d44b95a4ff1a15282ea.png",
+    "static/media/about1.png": "/piston-app/static/media/about1.6aa278e6954ca097bba2.png",
     "index.html": "/piston-app/index.html",
-    "main.048b643e.css.map": "/piston-app/static/css/main.048b643e.css.map",
-    "main.19b57754.js.map": "/piston-app/static/js/main.19b57754.js.map",
+    "main.3aa79ac2.css.map": "/piston-app/static/css/main.3aa79ac2.css.map",
+    "main.fad35b7a.js.map": "/piston-app/static/js/main.fad35b7a.js.map",
     "787.54f26701.chunk.js.map": "/piston-app/static/js/787.54f26701.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.048b643e.css",
-    "static/js/main.19b57754.js"
+    "static/css/main.3aa79ac2.css",
+    "static/js/main.fad35b7a.js"
   ]
 }
