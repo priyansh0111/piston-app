@@ -19,6 +19,7 @@ img {
 .container{
     position: relative;
     text-align: center;
+    width: 100% !important;
 }
 
 .text1{
@@ -139,4 +140,32 @@ transform: rotate(-55deg);
 .inverso span {
 line-height: 60px;
 transform-origin: bottom center; /* Only for seeing trick */
+}
+
+.last-image{
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+}
+
+.text9{
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+.text10{
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+}
+.text11{
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
 }

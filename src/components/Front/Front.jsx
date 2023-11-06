@@ -69,7 +69,7 @@ function Front() {
             </div>
           </Col>
           <Col xs={12} md={6} className='column-style'>
-            <div className="container column-style">    
+            <div className="container column-style last-image">    
                 <img src={img6} alt="" />
                 <div className="text2">SAVOUR THE PRESENT</div>
                 <div className="text8">
@@ -79,12 +79,28 @@ function Front() {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={12} className='column-style'>
+          <Col xs={12} md={12} className="column-style fluid">
             <div className="container column-style">
-                <img src={img7} alt="" />
-                <div className="bottom-centered2">WHERE QUALITY MEETS CLASS</div>
-                <div className="bottom-centered2">MADE FOR YOU</div>
-                <div className="bottom-centered2">PISTONS</div>
+                <img className="last-image" src={img7} alt="" />
+                <div className="text9">WHERE QUALITY MEETS CLASS</div>
+                <div class="estrellas inverso text10">
+                  <span>U</span>
+                  <span>O</span>
+                  <span>Y</span>
+                  <span> </span>
+                  <span>R</span>
+                  <span>O</span>
+                  <span>F</span>
+                  <span> </span>
+                  <span>E</span>
+                  <span>D</span>
+                  <span>A</span>
+                  <span>M</span>
+                </div>
+                <div className='text11'>PISTONS</div>
+                <div className="text8">
+                  <Button variant="light" style={{borderRadius: 100}}><span style={{fontSize: 15, fontWeight: 700, paddingLeft: 20, paddingRight: 20}}>SHOP THE FALL 2023 COLLECTION</span></Button>
+                </div>
             </div>
           </Col>
         </Row>

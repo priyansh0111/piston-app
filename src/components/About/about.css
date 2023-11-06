@@ -1,0 +1,41 @@
+.container-style{
+    padding: 0;
+    margin: 0;
+    max-width: 100% !important;
+    color: white;
+}
+.column-style{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    width: 100% !important;
+}
+
+.text1{
+    color: black;
+    position: absolute;
+    top: 120px;
+    left: 48%;
+    font-size: 36px;
+    transform: translate(-50%, -50%);
+}
+.text2{
+    color: black;
+    position: absolute;
+    top: 370px;
+    left: 48%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+}
+.img-style{
+    position: relative;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+    height: 450px;
+}
